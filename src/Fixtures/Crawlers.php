@@ -1407,5 +1407,7 @@ class Crawlers extends AbstractProvider
         'ZoteroTranslationServer',
         'ZyBorg',
         '[a-z0-9\-_]*(bot|crawl|archiver|transcoder|spider|uptime|validator|fetcher|cron|checker|reader|extractor|monitoring|analyzer|scraper)',
+        'Mozilla/5.0 (compatible; OhDear/1.1; +https://ohdear.app/checker; brokenLinks)',
+        'Mozilla/5.0 (compatible; OhDear/1.1; +https://ohdear.app/checker; mixedContent)'
     );
 }
